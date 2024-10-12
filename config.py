@@ -5,7 +5,7 @@ import requests
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [833360381]
+super_sudoers = [7304678803]
 
 
 ####################################################################################
@@ -18,9 +18,9 @@ if wr is None:
         fileSize = os.path.getsize("info.json")
         if fileSize == 0:
             
-            tokenBot = '6440646584:AAH_4iRhExEYh4wbeQBFgj18D-Tve8G0A5M' 
+            tokenBot = '7922139743:AAFTj4PwyuR3Ni81cnHDqOFDRs3DBZD3hl8' 
             
-            idSudo = 833360381
+            idSudo = 7304678803
 
             aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
             jsonString = json.dumps(aDict)
@@ -29,9 +29,9 @@ if wr is None:
             jsonFile.close()
     else:
         
-        tokenBot = '6440646584:AAH_4iRhExEYh4wbeQBFgj18D-Tve8G0A5M'
+        tokenBot = '7922139743:AAFTj4PwyuR3Ni81cnHDqOFDRs3DBZD3hl8'
         
-        idSudo = 833360381
+        idSudo = 7304678803
 
         aDict = {"Token": tokenBot, "idSudo": int(idSudo)}
         jsonString = json.dumps(aDict)
@@ -54,7 +54,7 @@ API_ID = 12962251
 API_HASH = "b51499523800add51e4530c6f552dbc8"
 
 # Chat used for logs
-log_chat = 6250435647
+log_chat = 7304678803
 # Sudoers and super sudoers
 sudoers = [data['idSudo']]
 sudoers += super_sudoers
